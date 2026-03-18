@@ -1,0 +1,30 @@
+# ChromaDB vector store (generated at runtime)
+chroma_store/
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Temp / uploaded files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
